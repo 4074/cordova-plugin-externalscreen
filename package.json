@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-externalscreen",
+  "version": "0.0.1",
+  "description": "A cordova external screen plugin. Use to creates a new UIWebView on an additional screen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cordova",
+    "external",
+    "screen"
+  ],
+  "author": {
+    "name": "wenfeng"
+  },
+  "license": "ISC",
+  "_id": "cordova-plugin-externalscreen@0.0.1",
+  "_shasum": "e85443851d213b7883ab077131cc5dc96b634ffd",
+  "_from": "cordova-plugin-externalscreen@*",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "wenfeng",
+    "email": "137657976@qq.com"
+  },
+  "dist": {
+    "shasum": "e85443851d213b7883ab077131cc5dc96b634ffd",
+    "tarball": "http://registry.npmjs.org/cordova-plugin-externalscreen/-/cordova-plugin-externalscreen-0.0.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "wenfeng",
+      "email": "137657976@qq.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "http://registry.npmjs.org/cordova-plugin-externalscreen/-/cordova-plugin-externalscreen-0.0.1.tgz"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-externalscreen" version="0.0.1">
+    <name>CDVExternalScreen</name>
+    <description>Cordova ExternalScreen Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,externalscreen</keywords>
+    <js-module src="www/CDVExternalScreen.js" name="CDVExternalScreen">
+        <clobbers target="ExternalScreen" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CDVExternalScreen">
+                <param name="ios-package" value="CDVExternalScreen"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVExternalScreen.h" />
+        <source-file src="src/ios/CDVExternalScreen.m" />
+    </platform>
+</plugin>
